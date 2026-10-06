@@ -164,8 +164,9 @@ governed by the license included with it.
 If any part of this license is held unenforceable, the rest of it stays in effect.
 
 
-14. GOVERNING LAW
+14. APPLICABLE LAW
 
-This license is governed by the laws of the Republic of Indonesia, without regard to its
-conflict-of-law rules. Nothing in this license takes away rights that the consumer protection
-laws of your country give you and that cannot be waived by agreement.
+This license is interpreted and applied under the laws that apply to you where you use the
+Software. Each term applies to the fullest extent those laws allow. Nothing in this license
+takes away rights that the consumer protection laws of your country give you and that cannot
+be waived by agreement.

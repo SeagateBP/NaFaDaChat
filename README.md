@@ -125,7 +125,7 @@ Free to use, for personal and business purposes, under the [NaFaDa Chat Freeware
 - **Use it lawfully.** Fraud, scams, spam, harassment, impersonation, using accounts that are not yours, or misusing other people's data is prohibited and ends your license.
 - **You are responsible** for your accounts, the data in them, and how you use it. You agree to cover any claim against the developer that results from your misuse.
 - **No warranty.** The app is provided as is, at your own risk. It may not meet your expectations or may stop working when WhatsApp Web changes, and the developer owes no support or fixes. As far as the law allows, the developer is not liable for any loss, including lost accounts or data.
-- The license is governed by Indonesian law. It does not take away consumer rights that your country's law gives you.
+- The license follows the laws that apply where you use the app. It does not take away consumer rights that your country's law gives you.
 
 ---
 
