@@ -1,0 +1,171 @@
+NaFaDa Chat Freeware License
+
+Copyright (c) 2026 SeagateBP. All rights reserved.
+
+This license applies to the NaFaDa Chat application (formerly WhatsApp Web Multi Account,
+"the Software"), including its executable files, updates, and documentation, as published at:
+https://github.com/SeagateBP/NaFaDaChat/releases
+
+By downloading, installing, or using the Software, you agree to these terms. If you do not
+agree, do not use the Software.
+
+
+1. LICENSE GRANT
+
+You may download, install, and use the Software free of charge, for personal or business
+purposes, on any number of devices.
+
+This license is non-exclusive and non-transferable.
+
+
+2. RESTRICTIONS
+
+You may NOT:
+
+  a. modify, adapt, translate, or create derivative works of the Software;
+  b. reverse engineer, decompile, or disassemble the Software, except to the extent that
+     applicable law expressly permits it despite this restriction;
+  c. sell, rent, lease, sublicense, or otherwise charge for the Software;
+  d. redistribute the Software or host copies of it for download. The only official source
+     is the Releases page above. You may share a link to that page;
+  e. remove or alter any copyright, license, or trademark notice in the Software;
+  f. bundle the Software with other software, or present it as your own.
+
+These restrictions protect users from altered copies that may contain malware. Only files
+obtained from the official Releases page, or installed by the Software's own signed updater,
+are genuine.
+
+
+3. OWNERSHIP
+
+The Software is licensed, not sold. SeagateBP ("the developer") retains all rights, title,
+and interest in the Software, including all intellectual property rights. All rights not
+expressly granted in this license are reserved.
+
+
+4. THIRD-PARTY COMPONENTS
+
+The Software includes third-party components, such as Electron and Chromium, that are
+licensed under their own terms. Those terms are included with the Software (for example,
+LICENSE.electron.txt and LICENSES.chromium.html). Nothing in this license limits your rights
+under those third-party licenses.
+
+
+5. TRADEMARKS AND AFFILIATION
+
+The Software is an independent, unofficial application. It is not affiliated with, endorsed
+by, or sponsored by WhatsApp LLC or Meta Platforms, Inc. "WhatsApp" is a trademark of
+WhatsApp LLC. The Software uses that name only to describe what it works with.
+
+
+6. YOUR RESPONSIBILITIES
+
+The Software displays WhatsApp Web, the web version of WhatsApp. You are responsible for
+using WhatsApp in line with WhatsApp's own terms of service. The developer is not
+responsible for any restriction, suspension, or ban that WhatsApp may apply to your
+accounts.
+
+The Software stores login sessions in its data folder. Anyone with access to that folder may
+be able to access your accounts. You are responsible for protecting that folder and the
+device it is on.
+
+You are responsible for the accounts you use with the Software and for the messages and data
+in them, including personal data of other people. You must handle that data in line with the
+laws that apply to you, including data protection laws.
+
+
+7. ACCEPTABLE USE
+
+You may not use the Software for any unlawful, fraudulent, or abusive purpose, including:
+
+  a. fraud, scams, or phishing;
+  b. spam or unsolicited bulk messages;
+  c. harassment, threats, or stalking;
+  d. impersonating another person or organization;
+  e. accessing WhatsApp accounts you are not authorized to use;
+  f. collecting, selling, or otherwise misusing other people's personal data.
+
+If you do, this license ends immediately, and you alone are responsible for the
+consequences.
+
+
+8. PRIVACY AND UPDATES
+
+The Software connects to WhatsApp Web; to the official repository named above, to check for
+updates; to Google's servers, to download spell-check dictionaries; and to Google Forms, only
+when you open "Report a problem or request a feature". Apart from what WhatsApp Web itself
+exchanges with WhatsApp, the Software does not collect or send your account data, messages,
+or usage information to the developer or to any other party. A report reaches the developer
+only with what you type into it, plus the app and Windows versions. Reports are handled
+through Google Forms and kept in the developer's Google account. The developer uses them only
+to answer you and to improve the Software, and does not share them. Google's own terms and
+privacy policy apply to the form and to the dictionary downloads, and WhatsApp's to WhatsApp
+Web.
+
+The developer has no access to your accounts, messages, or data folder.
+
+The Software checks for updates automatically. You can turn this off in the app under
+Settings, then Updates. New versions of the Software are installed only with your consent.
+Privacy rules (which parts of WhatsApp Web to blur, and where it shows profile names and
+unread counts) are signed by the developer and applied automatically when the Software checks
+for updates.
+
+
+9. NO WARRANTY
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY
+OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. YOU USE THE SOFTWARE
+ENTIRELY AT YOUR OWN RISK.
+
+The developer does not promise that the Software will meet your needs or expectations, work
+without errors or interruptions, work with every device or setup, or keep working when
+WhatsApp Web changes. The developer has no obligation to provide support, fixes, updates, or
+new features. If the Software does not work as you expect, your only remedy is to stop using
+it.
+
+Privacy features such as blur and the PIN lock reduce casual viewing of your screen. They
+are not a guarantee of confidentiality and do not encrypt your data. They may stop working
+fully if WhatsApp Web changes.
+
+
+10. LIMITATION OF LIABILITY
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, IN NO EVENT SHALL THE DEVELOPER BE LIABLE FOR ANY
+CLAIM, DAMAGES, OR OTHER LIABILITY, INCLUDING LOSS OF DATA, LOSS OF ACCOUNTS, LOSS OF
+BUSINESS, OR ANY UNAUTHORIZED ACCESS TO, DISCLOSURE OF, OR MISUSE OF DATA BY YOU OR BY
+OTHERS, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN
+CONNECTION WITH THE SOFTWARE OR ITS USE.
+
+Where the law does not allow some of this limitation, the developer's liability is limited to
+the fullest extent the law allows.
+
+
+11. INDEMNIFICATION
+
+To the extent permitted by law, you agree to defend, indemnify, and hold harmless the
+developer against any claim, damage, loss, or expense, including reasonable legal fees,
+arising from your use or misuse of the Software, your breach of this license, or your
+violation of any law or of the rights of others, including the misuse of anyone's data.
+
+
+12. TERMINATION
+
+This license ends automatically if you break any of its terms. When it ends, you must stop
+using the Software and delete all copies of it. Sections 3, 6, 9, 10, 11, and 14 continue to
+apply after the license ends.
+
+
+13. CHANGES
+
+Future versions of the Software may come with different license terms. Each version is
+governed by the license included with it.
+
+If any part of this license is held unenforceable, the rest of it stays in effect.
+
+
+14. GOVERNING LAW
+
+This license is governed by the laws of the Republic of Indonesia, without regard to its
+conflict-of-law rules. Nothing in this license takes away rights that the consumer protection
+laws of your country give you and that cannot be waived by agreement.
