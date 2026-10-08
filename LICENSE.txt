@@ -113,15 +113,21 @@ the Data folder or your login sessions. You are responsible for protecting the D
 and the device it is on, for example with your Windows account security and disk encryption.
 
 The PIN lock and the blur hide content on your screen from casual viewing. They do not
-encrypt your data and do not protect the Data folder.
+encrypt your data and do not protect the Data folder. Hiding the window from screenshots and
+screen sharing depends on Windows and on the other program, and does not stop every way of
+capturing the screen, such as some programs, other devices, or a camera.
 
 Quick replies are stored in the Data folder encrypted with Windows data protection, so that
 normally only your Windows user account on the same device can read them. This protection
 depends on Windows and on the security of your Windows account, and is not a guarantee.
 Anyone who can use your Windows account can read them, and quick replies that cannot be
 decrypted, for example after the Data folder is moved to another device, are not available
-there. Exported quick replies and settings files are not encrypted. A quick reply you pick
-is copied to the Windows clipboard, where other programs on your device can read it.
+there. Exported quick replies and settings files are encrypted only when you protect them
+with a password; without one, anyone who gets the file can read it. A protected file is
+only as safe as its password, and a forgotten password cannot be recovered by anyone,
+including the developer. You are responsible for where you keep or send exported files. A
+quick reply you pick is copied to the Windows clipboard, where other programs on your
+device can read it.
 
 You are responsible for the accounts you use with the Software and for the messages and
 data in them, including personal data of other people, which you must handle in line with
@@ -175,8 +181,9 @@ Software gives more information; it is not part of this license.
 
 The Software checks for updates automatically unless you turn this off in Settings, then
 Updates. New versions are installed only with your consent. Privacy rules (which parts of
-WhatsApp Web to blur, and how the Software reads profile names, unread counts, and mentions)
-are signed by the developer and applied automatically when the Software checks for updates.
+WhatsApp Web to blur, and how the Software reads profile names, unread counts, mentions, and
+group chats) are signed by the developer and applied automatically when the Software checks
+for updates.
 Updates that the Software installs are verified with the developer's digital signature.
 
 

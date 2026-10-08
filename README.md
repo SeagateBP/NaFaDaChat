@@ -9,8 +9,10 @@ Use several WhatsApp accounts side by side in one Windows window. Each account r
 > NaFaDa Chat replaces **WhatsApp Web Multi Account** (`WAWebMultiAcc.exe`, 1.0.0–1.0.3), which is discontinued. See [Coming from WhatsApp Web Multi Account](#coming-from-whatsapp-web-multi-account).
 
 <p align="center">
-  <img src="assets/NFDPrivacySetup.png" alt="Choosing what to blur" height="250">
   <img src="assets/NFDBlur.png" alt="Accounts with the privacy blur on" height="250">
+  <img src="assets/NFDPrivacySetup.png" alt="Choosing what to blur" height="250">
+  <img src="assets/NFDSound.png" alt="Choosing a notification sound for personal chats and for groups" height="250">
+  <img src="assets/NFDQuickReplies.png" alt="The quick replies menu and the Manage quick replies dialog" height="250">
   <img src="assets/NFDLock.png" alt="The app locked with a PIN" height="250">
 </p>
 
@@ -43,7 +45,7 @@ Read this before you sign in. The app holds your WhatsApp sessions. This section
 
 - **Many accounts, one window.** Each account has its own isolated session and stays connected, even while the window is hidden in the tray.
 - **Know which account is which.** Profile photos and names appear automatically. Each account has its own color, shown as a strip next to WhatsApp.
-- **A sound per account**, plus a different sound when you are **@mentioned** in a group.
+- **A sound per account**, one for its **groups** if you like, plus a different sound when you are **@mentioned** in a group. **Mute all** silences every account at once.
 - **Privacy blur.** Choose exactly what to blur, and turn it on or off with the eye button or `Ctrl+Shift+B`.
 - **PIN lock**, after idle time, when Windows locks, or at a set time every day.
 - **Working hours.** Chosen accounts are muted outside your working hours.
@@ -66,20 +68,21 @@ Read this before you sign in. The app holds your WhatsApp sessions. This section
 - **Mute** an account for 1 hour, 8 hours, until morning, a number of hours you type (up to 720), or until you unmute it. Muted accounts show no notifications, play no sounds unless they are on screen, and are left out of the badges.
 - **Signed-out alert.** If WhatsApp signs an account out, it gets a "!" mark, Windows shows a notification and the tray tooltip names it.
 - **Working hours** (⚙ → Working hours & scheduled lock). When work ends, the chosen accounts are muted until it starts again.
-- **Notification sound per account** (right-click → Notification sound): WhatsApp's own, one of 8 built-in sounds, a sound file of your own (MP3, WAV, OGG or M4A), or none.
+- **Notification sound per account** (right-click → Notification sound…): personal chats on the left, groups on the right. WhatsApp's own, one of 8 built-in sounds, a sound file of your own (MP3, WAV, OGG or M4A), or none; groups can also use the same sound as personal chats. Listen to each one with ▶ first: nothing changes until you click OK.
+- **Mute all** (the bell below the eye button): every sound off at once, notifications still show. Click again to turn the sounds back on; each account keeps its own settings.
   > **Important:** to hear only the app's sound, turn off only the *sounds* in WhatsApp (Settings → Notifications) and keep its *notifications* on. The app plays a sound only when WhatsApp shows a notification.
-- **Mention sound** (right-click → Sound when I'm mentioned (@)). Your WhatsApp name and number always count, and you can add other words. The check runs inside WhatsApp's page, and the message text never leaves it.
+- **Mention sound** (right-click → Sound when I'm mentioned (@)…). Your WhatsApp name and number always count, and you can add other words. The check runs inside WhatsApp's page, and the message text never leaves it.
 - Unread counts per account in the window title, and as a red badge on the taskbar and tray (up to 99, then "99+").
 
 ### Privacy
 - Blur your account names and photos, your own photo, the chat list, the chat header, the messages, the text being typed, and the contact info panel. Optionally, a blurred item shows clearly while the mouse is over it.
 - If a WhatsApp Web change breaks part of the blur, the eye button shows a yellow dot and tells you which part. When the developer publishes a fix in the privacy rules, it arrives automatically, without a new app version.
 - Notifications can show only the account name and "New message".
-- The window can be hidden from screenshots and screen sharing (⚙ → Privacy).
+- The window is hidden from screenshots and screen sharing (⚙ → Privacy; on by default for new installs). This depends on Windows and the other program, and cannot stop every way of capturing the screen, such as a camera.
 
 ### Lock, quick replies, memory
 - PIN lock (4–12 digits), with auto-lock after 1–60 idle minutes, when Windows locks or sleeps, or every day at a time you choose. Accounts stay connected while locked.
-- Quick replies: pick one by its title with the speech-bubble button. It is copied, and you paste it with `Ctrl+V`. The same menu exports and imports them, to move them to another PC or share them with a colleague.
+- Quick replies: the speech-bubble button lists their titles; click one and it is copied. Search quick replies… (or `Ctrl+Shift+Q`) opens a list where you type to search and pick one with a click or `Enter`. It is copied, and you paste it with `Ctrl+V`. Manage quick replies… edits them, and exports and imports them, to move them to another PC or share them with a colleague.
 - Memory saver (⚙ → Memory saver) reloads background accounts that grow past a limit you choose, without signing out. **View memory usage** shows each account's memory use.
 
 ### Other
@@ -87,7 +90,8 @@ Read this before you sign in. The app holds your WhatsApp sessions. This section
 - Show or hide the app from any program (`Ctrl+Alt+W`, can be changed), optionally locking it.
 - Start with Windows, start hidden in the tray, close to the tray. A second start brings up the running window.
 - Move the data folder anywhere (⚙ → Data folder).
-- Export and import names, colors, order, zoom, privacy settings, working hours and quick replies (⚙ → Export / import settings). Sessions, profile photos and the PIN are never exported.
+- Export and import all settings in one file (⚙ → Export / import settings): accounts with their names, colors, order, zoom, sounds (including your own sound files) and mention words, privacy settings, working hours, quick replies and the general settings. Sessions, profile photos and the PIN are never exported.
+- Exported files can be protected with a password (AES-256-GCM). Without the password they cannot be read or imported, and a forgotten password cannot be recovered.
 - Tips on the first start. Open them again from ⚙ → Tips or by clicking the logo at the top of the sidebar.
 - ⚙ → **Report a problem or request a feature** sends a private report to the developer. Not every report or request can be handled or answered: that depends on the developer's time, priorities and other considerations. Do not put passwords, PINs or verification codes in a report.
 
@@ -101,6 +105,7 @@ Read this before you sign in. The app holds your WhatsApp sessions. This section
 | `Ctrl+Tab` / `Ctrl+Shift+Tab` | Next / previous account |
 | `Ctrl+Shift+U` | Next account with unread messages |
 | `Ctrl+Shift+N` | Add an account |
+| `Ctrl+Shift+Q` | Search quick replies |
 | `Ctrl+Shift+R` | Reload the active account |
 | `Ctrl+Shift+B` | Blur on/off |
 | `Ctrl+Shift+L` | Lock the app (or set a PIN first) |
@@ -127,7 +132,7 @@ The `Data` folder holds your WhatsApp login sessions. **Treat it like a password
 - Do not use the app on a PC that other people use with your Windows account.
 - If you think the folder was copied, open WhatsApp on your phone → **Linked devices** and log out every device you do not recognize.
 
-Quick replies are stored in the same folder, encrypted so that only your Windows user on this PC can read them. On another PC or Windows user they cannot be read; to move them, use Export quick replies and Import quick replies in the quick replies menu. Exported quick replies and settings files are not encrypted. A reply you pick goes to the Windows clipboard, where other programs can read it, so do not save passwords or secrets as quick replies.
+Quick replies are stored in the same folder, encrypted so that only your Windows user on this PC can read them. On another PC or Windows user they cannot be read; to move them, use Export… and Import… in Manage quick replies…. Exported quick replies and settings files are encrypted only when you give them a password; without one they are plain files. A reply you pick goes to the Windows clipboard, where other programs can read it, so do not save passwords or secrets as quick replies.
 
 ### PIN lock
 
@@ -142,7 +147,7 @@ The PIN is a privacy screen for the app window, like a screen lock. It is not en
 
 - The app checks this repository for `update/latest.json` and installs a new version **only after you agree**.
 - That file is signed with the developer's Ed25519 key. It lists the size and SHA-256 of every download, and the app rejects any file that does not match.
-- `update/privacy-rules.json` (what to blur, and how to read names, unread counts and mentions from WhatsApp Web) is signed the same way. It is also encrypted, but only to keep it from casual readers: the signature is what protects it.
+- `update/privacy-rules.json` (what to blur, and how to read names, unread counts, mentions and group chats from WhatsApp Web) is signed the same way. It is also encrypted, but only to keep it from casual readers: the signature is what protects it.
 - The previous version is kept, and you can restore it (⚙ → Updates → Restore previous version).
 
 ### Network connections
@@ -174,7 +179,7 @@ The result must match that file's line in `SHA256SUMS.txt`.
 
 - **Memory.** Each signed-in account uses about 300–600 MB of RAM, the same as a WhatsApp Web tab in a browser. Add about 60 MB per account for WhatsApp's background service and about 200 MB for the app itself. Measured example: 3 accounts use about 1.5–1.9 GB. Use the memory saver, or fewer accounts, on a PC with little RAM.
 - **WhatsApp's device limit.** One phone number can be linked to at most 4 devices. If scanning the QR code fails, log out a device you no longer use (WhatsApp → **Linked devices**).
-- **WhatsApp Web changes.** Blur, profile names, unread counts and mention detection depend on how WhatsApp Web is built. A change on WhatsApp's side can break them until the developer publishes updated privacy rules, which the app then applies automatically. There is no guaranteed time for such a fix.
+- **WhatsApp Web changes.** Blur, profile names, unread counts, mention detection and telling group chats apart depend on how WhatsApp Web is built. A change on WhatsApp's side can break them until the developer publishes updated privacy rules, which the app then applies automatically. There is no guaranteed time for such a fix.
 - **Notifications are the signal.** Notification sounds, mention sounds and working hours rely on WhatsApp's own notifications and your PC's clock. They may miss a message, for example when WhatsApp's notifications are off.
 - **Not approved by WhatsApp.** The app loads the official WhatsApp Web page and does not modify, automate or send messages. WhatsApp still decides how its service may be used, so follow [WhatsApp's Terms of Service](https://www.whatsapp.com/legal/terms-of-service). Spam or bulk messaging can get an account banned, with this app or without it.
 
