@@ -81,7 +81,7 @@ Read this before you sign in. The app holds your WhatsApp sessions. This section
 - The window is hidden from screenshots and screen sharing (⚙ → Privacy; on by default for new installs). This depends on Windows and the other program, and cannot stop every way of capturing the screen, such as a camera.
 
 ### Lock, quick replies, memory
-- PIN lock (4–12 digits), with auto-lock after 1–60 idle minutes, when Windows locks or sleeps, or every day at a time you choose. Accounts stay connected while locked.
+- PIN lock (4–12 digits), with auto-lock after 1–60 idle minutes, when Windows locks or sleeps, or every day at a time you choose. Accounts stay connected while locked. Right-click the lock button to lock now, change or turn off the PIN, or set auto-lock.
 - Quick replies: the speech-bubble button lists their titles; click one and it is copied. Search quick replies… (or `Ctrl+Shift+Q`) opens a list where you type to search and pick one with a click or `Enter`. It is copied, and you paste it with `Ctrl+V`. Manage quick replies… edits them, and exports and imports them, to move them to another PC or share them with a colleague.
 - Memory saver (⚙ → Memory saver) reloads background accounts that grow past a limit you choose, without signing out. **View memory usage** shows each account's memory use.
 
