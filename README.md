@@ -60,19 +60,19 @@ Read this before you sign in. The app holds your WhatsApp sessions. This section
 - The sidebar shows each account's WhatsApp profile photo and name, refreshed every 6 hours. Names you set yourself are never overwritten.
 - Right-click an account to rename it (emoji welcome, e.g. "🛒 Shop A"), change its color or zoom, mute it, reload it, move it, or remove it. Drag accounts to reorder them.
 - Zoom per account, 50–200% (`Ctrl+Plus` / `Ctrl+Minus` / `Ctrl+0`, or `Ctrl` + mouse wheel).
-- Spell checking, with suggestions in the right-click menu of the message box. Choose up to 5 languages in ⚙ → Spell check.
+- Spell checking, with suggestions in the right-click menu of the message box. Choose up to 5 languages in ⚙ → Language & spelling → Spell check (Add language / Remove language).
 - Accounts that crash or fail to load (for example while offline) reload by themselves.
 
 ### Notifications & unread messages
 - Windows notifications per account. Clicking one opens the account that received it.
 - **Mute** an account for 1 hour, 8 hours, until morning, a number of hours you type (up to 720), or until you unmute it. Muted accounts show no notifications, play no sounds unless they are on screen, and are left out of the badges.
 - **Signed-out alert.** If WhatsApp signs an account out, it gets a "!" mark, Windows shows a notification and the tray tooltip names it.
-- **Working hours** (⚙ → Working hours & scheduled lock). When work ends, the chosen accounts are muted until it starts again.
-- **Notification sound per account** (right-click → Notification sound…): personal chats on the left, groups on the right. WhatsApp's own, one of 8 built-in sounds, a sound file of your own (MP3, WAV, OGG or M4A), or none; groups can also use the same sound as personal chats. Listen to each one with ▶ first: nothing changes until you click OK.
+- **Working hours** (⚙ → All accounts → Working hours & scheduled lock). When work ends, the chosen accounts are muted until it starts again.
+- **Notification sounds per account** (right-click → Notification sounds…): one window with three columns: personal chats, groups, and mentions. WhatsApp's own, one of 8 built-in sounds, a sound file of your own (MP3, WAV, OGG or M4A), or none; groups can also use the same sound as personal chats. Listen to each one with ▶ first: nothing changes until you click OK.
 - **Mute all** (the bell below the eye button): every sound off at once, notifications still show. Click again to turn the sounds back on; each account keeps its own settings.
   > **Important:** to hear only the app's sound, turn off only the *sounds* in WhatsApp (Settings → Notifications) and keep its *notifications* on. The app plays a sound only when WhatsApp shows a notification.
-- **Mention sound** (right-click → Sound when I'm mentioned (@)…). Your WhatsApp name and number always count, and you can add other words. The check runs inside WhatsApp's page, and the message text never leaves it.
-- Unread counts per account in the window title, and as a red badge on the taskbar and tray (up to 99, then "99+").
+- **Mention sound** (the third column of the same window). Your WhatsApp name and number always count, and you can add other words. The check runs inside WhatsApp's page, and the message text never leaves it.
+- Unread counts per account in the window title, and as a red badge on the taskbar and tray (up to 99, then "99+"). The tray menu lists the accounts with their unread counts (click one to open it), and has Mute all and Lock.
 
 ### Privacy
 - Blur your account names and photos, your own photo, the chat list, the chat header, the messages, the text being typed, and the contact info panel. Optionally, a blurred item shows clearly while the mouse is over it.
@@ -88,12 +88,15 @@ Read this before you sign in. The app holds your WhatsApp sessions. This section
 ### Other
 - Languages: English, Chinese (Simplified), Hindi, Spanish, Arabic, French, Bengali, Portuguese, Russian, Indonesian. The app starts in your Windows language. Once signed in, WhatsApp Web itself uses your phone's language.
 - Show or hide the app from any program (`Ctrl+Alt+W`, can be changed), optionally locking it.
-- Start with Windows, start hidden in the tray, close to the tray. A second start brings up the running window.
+- Start with Windows, start hidden in the tray, close to the tray (⚙ → Startup & tray). A second start brings up the running window.
+- **Keep starred messages** when clearing a chat: WhatsApp's "Clear this chat?" opens with "Keep starred messages" already ticked (⚙ → All accounts; on by default). You can still untick it, and you still click Clear yourself.
+- Saving a photo, video or document from WhatsApp opens a Save window titled with the file name, in the folder you used last.
+- Messages and questions of the app show inside its window, with clickable links and an Open folder button where a file or folder is named. They never show over the lock screen.
 - Move the data folder anywhere (⚙ → Data folder).
 - Export and import all settings in one file (⚙ → Export / import settings): accounts with their names, colors, order, zoom, sounds (including your own sound files) and mention words, privacy settings, working hours, quick replies and the general settings. Sessions, profile photos and the PIN are never exported.
 - Exported files can be protected with a password (AES-256-GCM). Without the password they cannot be read or imported, and a forgotten password cannot be recovered.
-- Tips on the first start. Open them again from ⚙ → Tips or by clicking the logo at the top of the sidebar.
-- ⚙ → **Report a problem or request a feature** sends a private report to the developer. Not every report or request can be handled or answered: that depends on the developer's time, priorities and other considerations. Do not put passwords, PINs or verification codes in a report.
+- Tips on the first start. Open them again from ⚙ → Help → Tips or by clicking the logo at the top of the sidebar.
+- ⚙ → Help → **Report a problem or request a feature** sends a private report to the developer. Not every report or request can be handled or answered: that depends on the developer's time, priorities and other considerations. Do not put passwords, PINs or verification codes in a report.
 
 </details>
 
