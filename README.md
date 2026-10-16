@@ -33,7 +33,7 @@ Read this before you sign in. The app holds your WhatsApp sessions. This section
 | Question | Answer |
 |---|---|
 | Where is my data? | In the `Data` folder next to the app, on your computer only. The app has no server and no account system. |
-| What does the app connect to? | WhatsApp Web, this repository (for updates), and Google only when you use spell check or the report form. [Full list](#network-connections) |
+| What does the app connect to? | WhatsApp Web, this repository (for updates), and Google only when you use spell check, the report form, or Translate (off until you agree). [Full list](#network-connections) |
 | Does it collect usage data? | No. There is no telemetry, analytics or crash upload. |
 | Is the `Data` folder encrypted? | **No, not by the app.** Anyone with a copy of it may be able to open your accounts. [Protect it](#protect-your-data-folder). |
 | Does the PIN encrypt anything? | **No.** The PIN locks the app window. It does not encrypt the `Data` folder. [Details](#pin-lock) |
@@ -44,8 +44,11 @@ Read this before you sign in. The app holds your WhatsApp sessions. This section
 ## Features
 
 - **Many accounts, one window.** Each account has its own isolated session and stays connected, even while the window is hidden in the tray.
-- **Know which account is which.** Profile photos and names appear automatically. Each account has its own color, shown as a strip next to WhatsApp.
-- **A sound per account**, one for its **groups** if you like, plus a different sound when you are **@mentioned** in a group. **Mute all** silences every account at once.
+- **Know which account is which.** Profile photos and names appear automatically. Each account has its own color, shown as a strip next to WhatsApp and on WhatsApp's message box, so you do not reply from the wrong account.
+- **A sound per account**, one for its **groups** if you like, plus a different sound when you are **@mentioned** in a group. **Do Not Disturb** silences or hides every account's notifications at once.
+- **Translate** selected text with Google Translate in a panel on the right (off until you agree).
+- **More room for WhatsApp:** unpin the sidebar and it slides out only when you need it. **Ctrl+K** finds any account, command or quick reply.
+- **Saved files** open with their Windows app in one click, and WhatsApp's cache is cleaned every 30 days on this PC.
 - **Privacy blur.** Choose exactly what to blur, and turn it on or off with the eye button or `Ctrl+Shift+B`.
 - **PIN lock**, after idle time, when Windows locks, or at a set time every day.
 - **Working hours.** Chosen accounts are muted outside your working hours.
@@ -62,6 +65,9 @@ Read this before you sign in. The app holds your WhatsApp sessions. This section
 - Zoom per account, 50–200% (`Ctrl+Plus` / `Ctrl+Minus` / `Ctrl+0`, or `Ctrl` + mouse wheel).
 - Spell checking, with suggestions in the right-click menu of the message box. Choose up to 5 languages in ⚙ → Language & spelling → Spell check (Add language / Remove language).
 - Accounts that crash or fail to load (for example while offline) reload by themselves.
+- **Pin the sidebar** (the pin button above ⚙, or `Ctrl+Shift+S`): unpinned, it hides and WhatsApp uses the whole width; a thin line in the account's color stays on the left, and the sidebar slides out over WhatsApp when the mouse reaches it.
+- **The account on the message box:** with two accounts or more, WhatsApp's message box shows the account's color and name (⚙ → All accounts; on by default). It only shows; it never types or sends.
+- **Search the app** (`Ctrl+K`): accounts, commands with their shortcuts, and quick replies in one list.
 
 ### Notifications & unread messages
 - Windows notifications per account. Clicking one opens the account that received it.
@@ -69,10 +75,10 @@ Read this before you sign in. The app holds your WhatsApp sessions. This section
 - **Signed-out alert.** If WhatsApp signs an account out, it gets a "!" mark, Windows shows a notification and the tray tooltip names it.
 - **Working hours** (⚙ → All accounts → Working hours & scheduled lock). When work ends, the chosen accounts are muted until it starts again.
 - **Notification sounds per account** (right-click → Notification sounds…): one window with three columns: personal chats, groups, and mentions. WhatsApp's own, one of 8 built-in sounds, a sound file of your own (MP3, WAV, OGG or M4A), or none; groups can also use the same sound as personal chats. Listen to each one with ▶ first: nothing changes until you click OK.
-- **Mute all** (the bell below the eye button): every sound off at once, notifications still show. Click again to turn the sounds back on; each account keeps its own settings.
+- **Do Not Disturb** (the ⛔ button below the eye button, for all accounts; it replaces Mute all): a click turns it on or off. Right-click to choose **Mute** (no sound, notifications still show), **No notifications** (sounds still play) or both, until you turn it off or for a number of minutes. Each account keeps its own settings.
   > **Important:** to hear only the app's sound, turn off only the *sounds* in WhatsApp (Settings → Notifications) and keep its *notifications* on. The app plays a sound only when WhatsApp shows a notification.
 - **Mention sound** (the third column of the same window). Your WhatsApp name and number always count, and you can add other words. The check runs inside WhatsApp's page, and the message text never leaves it.
-- Unread counts per account in the window title, and as a red badge on the taskbar and tray (up to 99, then "99+"). The tray menu lists the accounts with their unread counts (click one to open it), and has Mute all and Lock.
+- Unread counts per account in the window title, and as a red badge on the taskbar and tray (up to 99, then "99+"). The tray menu lists the accounts with their unread counts (click one to open it), and has Do Not Disturb and Lock.
 
 ### Privacy
 - Blur your account names and photos, your own photo, the chat list, the chat header, the messages, the text being typed, and the contact info panel. Optionally, a blurred item shows clearly while the mouse is over it.
@@ -90,7 +96,9 @@ Read this before you sign in. The app holds your WhatsApp sessions. This section
 - Show or hide the app from any program (`Ctrl+Alt+W`, can be changed), optionally locking it.
 - Start with Windows, start hidden in the tray, close to the tray (⚙ → Startup & tray). A second start brings up the running window.
 - **Keep starred messages** when clearing a chat: WhatsApp's "Clear this chat?" opens with "Keep starred messages" already ticked (⚙ → All accounts; on by default). You can still untick it, and you still click Clear yourself.
-- Saving a photo, video or document from WhatsApp opens a Save window titled with the file name, in the folder you used last.
+- **Translate with Google** (off by default; ⚙ → Language & spelling): select text in a chat, right-click → Translate and pick one of the 10 languages. The first time, the app asks before any text goes to Google. The official translate.google.com page opens in a panel on the right (400 px at first; drag its edge to resize it), in its own in-memory session. The text only goes into the page's web address: the app never scripts the page or reads the result.
+- **Files & cache** (⚙ → Files & cache): save files from WhatsApp (also PDFs) with a Save window or straight into a folder you choose, then open them with their Windows app or show them in their folder. Nothing opens by itself; files that can run programs are only shown in their folder, and saved files keep Windows' "from the internet" mark, so Office and PDF readers use Protected View. The cache of WhatsApp Web on this PC is cleaned every 30 days (or as you choose) without signing out; chats stay, and nothing changes on your phone.
+- Menu options show as check boxes and radio buttons.
 - Messages and questions of the app show inside its window, with clickable links and an Open folder button where a file or folder is named. They never show over the lock screen.
 - Move the data folder anywhere (⚙ → Data folder).
 - Export and import all settings in one file (⚙ → Export / import settings): accounts with their names, colors, order, zoom, sounds (including your own sound files) and mention words, privacy settings, working hours, quick replies and the general settings. Sessions, profile photos and the PIN are never exported.
@@ -104,6 +112,7 @@ Read this before you sign in. The app holds your WhatsApp sessions. This section
 
 | Shortcut | Action |
 |---|---|
+| `Ctrl+K` | Search accounts, commands and quick replies |
 | `Ctrl+1` … `Ctrl+9` | Go to account 1–9 |
 | `Ctrl+Tab` / `Ctrl+Shift+Tab` | Next / previous account |
 | `Ctrl+Shift+U` | Next account with unread messages |
@@ -112,6 +121,7 @@ Read this before you sign in. The app holds your WhatsApp sessions. This section
 | `Ctrl+Shift+R` | Reload the active account |
 | `Ctrl+Shift+B` | Blur on/off |
 | `Ctrl+Shift+L` | Lock the app (or set a PIN first) |
+| `Ctrl+Shift+S` | Pin / unpin the sidebar |
 | `Ctrl+Plus` / `Ctrl+Minus` / `Ctrl+0` | Zoom the active account in / out / 100% |
 | `Ctrl+Alt+W` (can be changed) | Show / hide the app from any program |
 
@@ -150,7 +160,7 @@ The PIN is a privacy screen for the app window, like a screen lock. It is not en
 
 - The app checks this repository for `update/latest.json` and installs a new version **only after you agree**.
 - That file is signed with the developer's Ed25519 key. It lists the size and SHA-256 of every download, and the app rejects any file that does not match.
-- `update/privacy-rules.json` (what to blur, and how to read names, unread counts, mentions and group chats from WhatsApp Web) is signed the same way. It is also encrypted, but only to keep it from casual readers: the signature is what protects it.
+- `update/privacy-rules.json` (what to blur, how to read names, unread counts, mentions and group chats from WhatsApp Web, and where the message box is) is signed the same way. It is also encrypted, but only to keep it from casual readers: the signature is what protects it.
 - The previous version is kept, and you can restore it (⚙ → Updates → Restore previous version).
 
 ### Network connections
@@ -163,10 +173,11 @@ The app itself connects to:
 | `raw.githubusercontent.com`, `github.com` (this repository) | Update checks, and downloads you approve | An ordinary download request; no account data |
 | Google spell-check dictionary servers | Once per spell-check language you choose, as in Chrome | A dictionary download; no typed text |
 | `docs.google.com` (Google Forms) | Only when you open **Report a problem** | What you type in the form, plus the app and Windows versions. Your contact email is optional. |
+| `translate.google.com` (Google Translate) | Only when you translate, after you agreed once | The text you selected to translate (which may include other people's messages). Do not translate passwords or codes. |
 
-Notification sounds, mention detection, working hours, the scheduled lock, quick replies, and export and import all run on your computer only.
+Notification sounds, mention detection, Do Not Disturb, working hours, the scheduled lock, quick replies, cache cleaning, and export and import all run on your computer only.
 
-Reports are kept in the developer's Google account, used to answer you and to improve the app, and not sold or published. Not every report or request can be answered or handled. Google's privacy policy applies to the form itself.
+Reports are kept in the developer's Google account, used to answer you and to improve the app, and not sold or published. Not every report or request can be answered or handled. Google's privacy policy applies to the form itself, and Google's terms and privacy policy to Google Translate.
 
 ### Verify your download
 

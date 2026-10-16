@@ -27,7 +27,8 @@ This summary is for convenience only. The numbered sections below are the bindin
   - Your login sessions are stored in the Data folder on your device. Protect that folder.
     The PIN lock and blur hide your screen; they do not encrypt anything.
   - The Software is designed not to send account data, messages, or usage statistics to
-    the developer.
+    the developer. If you turn on Translate with Google, the text you translate goes to
+    Google.
   - Links and files in your chats come from others. Opening them is your decision and risk.
   - It is provided free of charge, as is, without any warranty, and entirely at your own
     risk. You cannot hold the developer liable for anything relating to the Software.
@@ -172,18 +173,22 @@ the developer remote access to your accounts, messages, or Data folder.
 WhatsApp Web communicates directly with WhatsApp, under WhatsApp's terms and privacy policy.
 The Software itself also connects to the official repository, to check for updates; to
 Google, to download spell-check dictionaries; and to Google Forms, when you open "Report a
-problem or request a feature". A report contains what you type into it, plus the app and
-Windows versions. Do not put passwords, PINs, verification codes, or other sensitive data
-in a report. The developer may use reports to answer you and to improve the Software, and
-does not sell or publish them, except where required by law. Google's terms and privacy
-policy apply to the form and to the dictionary downloads. The README published with the
+problem or request a feature". If you turn on "Translate with Google" (it is off by default
+and asks for your consent first), the text you choose to translate, including messages from
+other people, is sent to Google Translate. A report contains what you type into it, plus
+the app and Windows versions. Do not put passwords, PINs, verification codes, or other
+sensitive data in a report. The developer may use reports to answer you and to improve the
+Software, and does not sell or publish them, except where required by law. Google's terms
+and privacy policy apply to the form, to the dictionary downloads, and to Google Translate.
+Do not translate passwords, verification codes, or other sensitive data. The developer is
+not responsible for translations or for Google's services. The README published with the
 Software gives more information; it is not part of this license.
 
 The Software checks for updates automatically unless you turn this off in Settings, then
 Updates. New versions are installed only with your consent. Privacy rules (which parts of
-WhatsApp Web to blur, and how the Software reads profile names, unread counts, mentions, and
-group chats) are signed by the developer and applied automatically when the Software checks
-for updates.
+WhatsApp Web to blur, how the Software reads profile names, unread counts, mentions, and
+group chats, and where it marks the message box) are signed by the developer and applied
+automatically when the Software checks for updates.
 Updates that the Software installs are verified with the developer's digital signature.
 
 
@@ -207,11 +212,13 @@ other considerations, at the developer's sole discretion. If the developer uses 
 suggestion you send, you are not owed any payment, credit, or other compensation for it, and
 the developer may use it freely.
 
-Privacy features, notification sounds, mention detection, working hours, and the scheduled
-lock depend on WhatsApp Web and on your device. They may stop working fully, or miss or
-misjudge a message, for example when notifications are turned off in WhatsApp or WhatsApp
-Web changes. You alone decide whether the Software is suitable for your use. Do not rely on
-it where a failure, a missed message, or lost data could cause harm.
+Privacy features, notification sounds, mention detection, Do Not Disturb, working hours, the
+scheduled lock, and cache cleaning depend on WhatsApp Web and on your device. They may stop
+working fully, or miss or misjudge a message, for example when notifications are turned off
+in WhatsApp or WhatsApp Web changes. The Software does not scan files saved from WhatsApp;
+opening them is your decision and risk. You alone decide whether the Software is suitable
+for your use. Do not rely on it where a failure, a missed message, or lost data could cause
+harm.
 
 
 11. NO LIABILITY
